@@ -2,8 +2,8 @@ class Player{
     constructor(x, y){
         this.x = x;
         this.y = y;
-        this.width = 30;
-        this.height = 30;
+        this.width = 25;
+        this.height = 15;
         this.verticalVelocity = 0;
         this.horizontalVelocity = 0;
         this.canMove = false;
@@ -29,8 +29,8 @@ class Player{
             this.direction = this.direction + (Math.PI * 2);
         }
     }
-
 }
 
 
 
+//howdy

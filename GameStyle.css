@@ -4,4 +4,10 @@ body {
 
 canvas {
     background-color: black;
+    display: block;
+    margin: auto;
+}
+
+#player {
+    display: none;
 }
