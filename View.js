@@ -1,6 +1,10 @@
 (function(){
-    let player;
-    let planets = [];
+    let model;
+
+    let playerWidth = 25;
+    let playerHeight = 15;
+    let numPlanets = 9;
+
 
     function draw(){
         let canvas = document.getElementById("primarystage");
@@ -11,7 +15,7 @@
     }
 
     window.onload = function(){
-        player = new Player(0,360);
+        model
         draw();
     }
 })();
